@@ -1,0 +1,51 @@
+  <H1>STATE TRANSITION TESTING</H1>
+<p>State Transition Testing is a black box testing technique in which changes made in input conditions cause state changes or output changes in the Application under Test. State transition testing helps to analyze behaviour of an application for different input conditions.</p>
+ <ol> 
+<li> State-Transition testing is the one of the black box testing & desing techniques which can be used to derive test cases (or) test for the application functions which go through several states 
+    </li> 
+</ol> 
+
+   <pr> APPLICATION FUNCTIONALITIES <br>
+    SEVERAL STATES <br>
+    For example let us look in to net banking software <br>
+    when you visit a site you can see a login details 
+    </pr>
+<body>
+    <style>
+        img{ 
+          width:50%;
+      }
+      div{ display: flex;
+      justify-content:center;
+      align-image:center;
+      height:10vh
+      }
+      </style>
+</body>
+    <div> 
+        <img src="sbi.png"alt>
+        </div>
+        <pr> now you can see the above login page now if you enter the login details and login if the password is wrong it give 2nd time to enter the correct if you enter the correct password you can access the site but if you again enter the wrong password at the 2nd time it gives 3rd chance to enter the correct password in 3rd time if you enter the wrong password the access will be locked and its shows your accoungt is locked </pr>
+    <br> 
+    <pr> WRONG PASSWORD <br>
+    WRONG PASSWORD <br>
+    WRONG PASSWORD <br>
+    ACCOUNT LOCKED </pr>
+    <style>
+    
+  img{ 
+    width:50%;
+}
+div{ display: flex;
+justify-content:center;
+align-image:center;
+height: 40vh
+}
+</style> 
+<div>
+    <img src="state.png"alt>
+</div>
+
+<pr> for the 4th try it will be blocked the access <br>
+    and you can't able to acces the data on that site this is the state transition testing  
+</pr>
